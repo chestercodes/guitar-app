@@ -1,0 +1,8 @@
+**/shared.ts
+
+*/.cache/
+out/
+src/app/shared/*
+.env
+**/.env
+**/*.js

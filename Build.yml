@@ -1,0 +1,27 @@
+version: "2.4"
+services:
+  api-build:
+    build:
+      context: api
+      target: build
+    volumes:
+      - ./publish/out:/out
+  site-build:
+    build:
+      context: site
+      target: build
+    volumes:
+      - ./publish/out:/out
+  deploy-build:
+    build:
+      context: deploy
+      target: build
+    volumes:
+      - ./publish/out:/out
+  tests-build:
+    build:
+      context: tests
+      target: build
+    volumes:
+      - ./publish/out:/out
+  

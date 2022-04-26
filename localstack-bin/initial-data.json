@@ -1,0 +1,58 @@
+{
+  "guitar-table": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "gibson-lespaul-classic"
+          },
+          "make": {
+            "S": "Gibson"
+          },
+          "model": {
+            "S": "Les Paul"
+          },
+          "imageurl": {
+            "S": "https://static.gibson.com/product-images/USA/USAMRP793/70s%20Cherry%20Sunburst/LPDX007CCH1_front.jpg"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "gibson-sg-classic"
+          },
+          "make": {
+            "S": "Gibson"
+          },
+          "model": {
+            "S": "SG"
+          },
+          "imageurl": {
+            "S": "https://static.gibson.com/product-images/USA/USAPAH661/Vintage%20Cherry/front-300_600.png"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "fender-strat-usa"
+          },
+          "make": {
+            "S": "Fender"
+          },
+          "model": {
+            "S": "Stratocaster"
+          },
+          "imageurl": {
+            "S": "https://www.stars-music.com/medias/fender/strat-player-mex-sss-pf-hd-146087.jpg"
+          }
+        }
+      }
+    }
+  ]
+}

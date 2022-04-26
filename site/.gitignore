@@ -1,0 +1,7 @@
+**/shared.ts
+*.js
+!jest.config.js
+*.d.ts
+**/node_modules
+.parcel-cache/
+dist/
