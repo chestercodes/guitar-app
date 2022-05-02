@@ -13,3 +13,16 @@ More information about this can be seen in [this blog post](https://chester.code
 The data layer, in the form of a DynamoDB table is shared between the two environments which needs to be considered when deploying.
 
 ![AppDiagram](App.png)
+
+
+
+### Secrets
+
+Once the pipeline repository is bootstrapped need to add the following secrets to the github actions secrets repo:
+
+ name | value |
+ ---- | ----- |
+ PIPELINE_AWS_ACCOUNT | AWS account number, currently all code is designed to deploy to same account. |
+ BUILD_ACCESS_KEY_ID | Create credential from bootstrapped build user. |
+ BUILD_SECRET_ACCESS_KEY | Create credential from bootstrapped build user. |
+ 
