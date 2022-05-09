@@ -14,6 +14,13 @@ The data layer, in the form of a DynamoDB table is shared between the two enviro
 
 ![AppDiagram](App.png)
 
+## Getting started
+
+### Code to change
+
+For the code to run in the pipeline need to do a find and replace on the string `guitarapp` and change it to the value that is set in the pipeline repo.
+
+When the app is deploying correctly, will obviously need to change the `api`. `site` and `tests` to make the app.
 
 
 ### Secrets
